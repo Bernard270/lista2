@@ -1,0 +1,49 @@
+public class pessoa
+{
+
+	private String nome;
+	private int cpf;
+	private endereco;
+
+	public pessoa(String nome, int cpf)
+	{
+		this.nome = nome;
+		this.cpf = cpf;
+		enderecos = new endereco[3];
+	}
+
+	void informacao(endereco info)
+	{
+		for(int i = 0; i < enderecos.length; i++)
+		{
+			if(enderecos[i] == null)
+			{
+				enderecos[i] = info;
+				break;
+			}
+		}
+	}
+
+
+	void maisInfo()
+	{
+		System.out.println("A pessoa: " + this.nome + " possui os seguintes enderecos:");
+for (Enderco endereco : enderecos)
+		{
+			if(membro != null)
+				System.out.println(membro.getNome());
+		}
+		System.out.println("A pessoa: " + this.nome + " possui as seguintes informacoes:");
+for (Endereco endereco : nederecos)
+		{
+			if(endereco != null)
+				System.out.println(enderco.getNome());
+		}
+	}
+
+	public void parapessoa(Apessoa pessoa)
+	{
+		this.pessoa = pessoa;
+	}
+
+}
