@@ -1,0 +1,21 @@
+public class Main
+{
+
+
+	public static void main(String args[])
+	{
+
+		Apessoa pessoa = new pessoa("As informacoes da Apessoa", 10000000);
+
+		Apessoa pessoa = new pessoa("Black Sabbath", "Heavy Metal");
+		pessoa.parapessoa(pessoa);
+
+		pessoa.informacao(enderco);
+
+		pessoa.maisInfo();
+
+	}
+
+
+}
+
